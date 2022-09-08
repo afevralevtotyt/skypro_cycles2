@@ -18,7 +18,7 @@ public class Main {
         double percent = 0.01;
         int total = 0;
         int month = 0;
-        while (total <= 2_459_000) {
+        while (total < 2_459_000) {
             total += salary + total*percent;
             month++;
             System.out.println("Месяц "+ month + " сумма накоплений " + total+ " рублей");
